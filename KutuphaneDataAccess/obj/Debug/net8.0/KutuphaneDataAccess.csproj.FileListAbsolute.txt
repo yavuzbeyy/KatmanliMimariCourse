@@ -1,0 +1,17 @@
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\bin\Debug\net8.0\KutuphaneDataAccess.deps.json
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\bin\Debug\net8.0\KutuphaneDataAccess.runtimeconfig.json
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\bin\Debug\net8.0\KutuphaneDataAccess.dll
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\bin\Debug\net8.0\KutuphaneDataAccess.pdb
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\bin\Debug\net8.0\KutuphaneCore.dll
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\bin\Debug\net8.0\KutuphaneCore.pdb
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.csproj.AssemblyReference.cache
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.AssemblyInfoInputs.cache
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.AssemblyInfo.cs
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\Kutuphan.D1710B6D.Up2Date
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.dll
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\refint\KutuphaneDataAccess.dll
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.pdb
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\KutuphaneDataAccess.genruntimeconfig.cache
+C:\Users\yavuz\source\repos\KutuphaneDataAccess\obj\Debug\net8.0\ref\KutuphaneDataAccess.dll

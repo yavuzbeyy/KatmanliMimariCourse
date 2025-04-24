@@ -1,0 +1,11 @@
+C:\Users\yavuz\source\repos\KutuphaneCore\bin\Debug\net8.0\KutuphaneCore.deps.json
+C:\Users\yavuz\source\repos\KutuphaneCore\bin\Debug\net8.0\KutuphaneCore.dll
+C:\Users\yavuz\source\repos\KutuphaneCore\bin\Debug\net8.0\KutuphaneCore.pdb
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\KutuphaneCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\KutuphaneCore.AssemblyInfoInputs.cache
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\KutuphaneCore.AssemblyInfo.cs
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\KutuphaneCore.csproj.CoreCompileInputs.cache
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\KutuphaneCore.dll
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\refint\KutuphaneCore.dll
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\KutuphaneCore.pdb
+C:\Users\yavuz\source\repos\KutuphaneCore\obj\Debug\net8.0\ref\KutuphaneCore.dll
