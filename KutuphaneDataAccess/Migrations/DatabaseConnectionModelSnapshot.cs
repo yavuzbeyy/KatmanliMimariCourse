@@ -136,6 +136,7 @@ namespace KutuphaneDataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

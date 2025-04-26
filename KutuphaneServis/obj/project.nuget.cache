@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9t9ovFjjDedIEHXrp3WkrGGLhT+LzvdRvSKS+JW58JIpVgVMjs8PZsXin7OV8HK0PCbneFiBW67NnBKGyKJPqQ==",
+  "dgSpecHash": "uQaA5HQmtaABpCG1++PcXl8I9sB1ml/kyq/pzHW/bHZ+qvvKJ0/P7+KJZlzdMi/6NSTwjA8uyBS4C3pJqfDD5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\KutuphaneServis.csproj",
+  "projectFilePath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\KutuphaneServis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yavuz\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\yavuz\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\yavuz\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\yavuz\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\yavuz\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\yavuz\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\yavuz\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.6\\microsoft.data.sqlclient.5.1.6.nupkg.sha512",

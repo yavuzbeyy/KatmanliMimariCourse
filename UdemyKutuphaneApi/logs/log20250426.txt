@@ -1,0 +1,951 @@
+2025-04-26 09:58:54.155 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 09:58:54.491 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 09:58:54.491 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 09:58:54.494 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 09:58:54.494 +03:00 [INF] Hosting environment: Development
+2025-04-26 09:58:54.494 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 09:58:55.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 09:58:55.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 250.2061ms
+2025-04-26 09:58:55.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 09:58:55.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 09:58:55.852 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.7349ms
+2025-04-26 09:58:55.887 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.5196ms
+2025-04-26 09:58:55.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 09:58:56.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.308ms
+2025-04-26 09:59:11.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:11.909 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:11.921 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:13.445 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:13.461 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1537.8608ms
+2025-04-26 09:59:13.461 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:13.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1565.7575ms
+2025-04-26 09:59:15.698 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:15.700 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:15.701 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:15.746 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:15.746 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 45.6501ms
+2025-04-26 09:59:15.746 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:15.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 48.5033ms
+2025-04-26 09:59:16.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:16.246 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.246 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:16.257 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:16.257 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 11.1977ms
+2025-04-26 09:59:16.257 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.258 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 15.5543ms
+2025-04-26 09:59:16.407 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:16.407 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.407 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:16.409 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:16.409 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8994ms
+2025-04-26 09:59:16.409 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.8837ms
+2025-04-26 09:59:16.561 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:16.561 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.562 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:16.563 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:16.563 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6536ms
+2025-04-26 09:59:16.563 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.563 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.8484ms
+2025-04-26 09:59:16.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:16.717 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.717 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:16.719 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:16.719 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8018ms
+2025-04-26 09:59:16.719 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.8593ms
+2025-04-26 09:59:16.882 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:16.883 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.883 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:16.884 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:16.885 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.7263ms
+2025-04-26 09:59:16.885 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:16.885 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9453ms
+2025-04-26 09:59:17.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:17.031 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.031 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:17.033 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:17.033 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8945ms
+2025-04-26 09:59:17.033 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9536ms
+2025-04-26 09:59:17.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:17.200 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.201 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:17.203 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:17.204 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 3.0844ms
+2025-04-26 09:59:17.204 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.204 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 7.1617ms
+2025-04-26 09:59:17.539 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:17.540 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.540 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:17.542 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:17.542 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.1428ms
+2025-04-26 09:59:17.542 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9675ms
+2025-04-26 09:59:17.720 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:17.721 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.721 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:17.723 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:17.723 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.9735ms
+2025-04-26 09:59:17.723 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.723 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.3625ms
+2025-04-26 09:59:17.955 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:17.955 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.955 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:17.957 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:17.957 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.782ms
+2025-04-26 09:59:17.957 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:17.957 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.2295ms
+2025-04-26 09:59:18.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:18.129 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.129 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:18.131 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:18.131 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8003ms
+2025-04-26 09:59:18.131 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.0069ms
+2025-04-26 09:59:18.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:18.303 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.303 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:18.304 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:18.305 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4713ms
+2025-04-26 09:59:18.305 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.5652ms
+2025-04-26 09:59:18.486 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:18.486 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.487 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:18.488 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:18.489 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8332ms
+2025-04-26 09:59:18.489 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.3025ms
+2025-04-26 09:59:18.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:18.901 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.901 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:18.903 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:18.903 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.7213ms
+2025-04-26 09:59:18.903 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:18.903 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.0149ms
+2025-04-26 09:59:19.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:19.283 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:19.283 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:19.285 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:19.285 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8555ms
+2025-04-26 09:59:19.285 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:19.286 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.2873ms
+2025-04-26 09:59:19.608 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:19.609 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:19.609 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:19.610 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:19.611 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4482ms
+2025-04-26 09:59:19.611 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:19.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.2081ms
+2025-04-26 09:59:19.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:19.828 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:19.828 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:19.829 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:19.829 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6358ms
+2025-04-26 09:59:19.829 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:19.829 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.7755ms
+2025-04-26 09:59:20.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:20.017 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.017 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:20.019 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:20.019 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.1691ms
+2025-04-26 09:59:20.019 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.019 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.638ms
+2025-04-26 09:59:20.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:20.225 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.225 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:20.227 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:20.227 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8198ms
+2025-04-26 09:59:20.227 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.865ms
+2025-04-26 09:59:20.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:20.418 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.418 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:20.420 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:20.420 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5983ms
+2025-04-26 09:59:20.420 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.3686ms
+2025-04-26 09:59:20.716 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:20.717 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.717 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:20.718 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:20.719 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6684ms
+2025-04-26 09:59:20.719 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.719 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.4624ms
+2025-04-26 09:59:20.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:20.901 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.901 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:20.903 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:20.904 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8964ms
+2025-04-26 09:59:20.904 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:20.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.8926ms
+2025-04-26 09:59:21.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:21.338 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:21.338 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:21.340 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:21.340 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6584ms
+2025-04-26 09:59:21.340 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:21.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.4577ms
+2025-04-26 09:59:21.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:21.802 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:21.802 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:21.803 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:21.803 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.3234ms
+2025-04-26 09:59:21.803 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:21.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.3059ms
+2025-04-26 09:59:22.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:22.286 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:22.286 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:22.287 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:22.288 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.9941ms
+2025-04-26 09:59:22.288 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:22.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.5085ms
+2025-04-26 09:59:22.735 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:22.736 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:22.736 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:22.738 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:22.738 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.9569ms
+2025-04-26 09:59:22.738 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:22.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9717ms
+2025-04-26 09:59:23.387 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:23.387 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:23.388 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:23.390 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:23.390 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.223ms
+2025-04-26 09:59:23.390 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:23.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9732ms
+2025-04-26 09:59:23.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:23.753 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:23.753 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:23.755 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:23.755 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8017ms
+2025-04-26 09:59:23.755 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:23.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.6744ms
+2025-04-26 09:59:23.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:23.946 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:23.946 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:23.948 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:23.949 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.3741ms
+2025-04-26 09:59:23.949 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:23.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.3955ms
+2025-04-26 09:59:24.125 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:24.125 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.126 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:24.127 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:24.127 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6747ms
+2025-04-26 09:59:24.127 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.127 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.7556ms
+2025-04-26 09:59:24.320 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:24.321 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.321 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:24.323 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:24.323 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8384ms
+2025-04-26 09:59:24.323 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.323 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.5492ms
+2025-04-26 09:59:24.511 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:24.511 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.511 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:24.513 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:24.513 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8131ms
+2025-04-26 09:59:24.513 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.5941ms
+2025-04-26 09:59:24.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:24.692 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.692 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:24.693 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:24.694 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5565ms
+2025-04-26 09:59:24.694 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.491ms
+2025-04-26 09:59:24.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:24.920 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.920 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:24.921 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:24.921 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4579ms
+2025-04-26 09:59:24.921 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:24.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9851ms
+2025-04-26 09:59:25.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:25.112 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.112 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:25.113 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:25.113 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4619ms
+2025-04-26 09:59:25.113 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.177ms
+2025-04-26 09:59:25.297 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:25.298 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.298 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:25.299 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:25.300 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5077ms
+2025-04-26 09:59:25.300 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.300 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.4933ms
+2025-04-26 09:59:25.492 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:25.493 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.493 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:25.495 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:25.495 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.059ms
+2025-04-26 09:59:25.495 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.495 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.7951ms
+2025-04-26 09:59:25.711 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:25.712 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.712 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:25.713 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:25.713 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.547ms
+2025-04-26 09:59:25.713 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.3339ms
+2025-04-26 09:59:25.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:25.967 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.967 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:25.968 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:25.968 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2708ms
+2025-04-26 09:59:25.968 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:25.968 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.9986ms
+2025-04-26 09:59:26.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:26.167 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.167 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:26.169 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:26.169 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6826ms
+2025-04-26 09:59:26.169 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.169 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.6601ms
+2025-04-26 09:59:26.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:26.372 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.372 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:26.374 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:26.374 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.1426ms
+2025-04-26 09:59:26.375 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.0407ms
+2025-04-26 09:59:26.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:26.585 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.585 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:26.587 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:26.587 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4996ms
+2025-04-26 09:59:26.587 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.587 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.319ms
+2025-04-26 09:59:26.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:26.780 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.780 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:26.781 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:26.781 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2936ms
+2025-04-26 09:59:26.781 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.3456ms
+2025-04-26 09:59:26.991 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:26.991 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.991 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:26.993 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:26.993 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6802ms
+2025-04-26 09:59:26.993 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:26.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.8193ms
+2025-04-26 09:59:36.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:36.394 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.394 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:36.395 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:36.395 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.0315ms
+2025-04-26 09:59:36.395 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.9041ms
+2025-04-26 09:59:36.565 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:36.565 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.565 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:36.567 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:36.567 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.3693ms
+2025-04-26 09:59:36.567 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.5973ms
+2025-04-26 09:59:36.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:36.760 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.760 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:36.762 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:36.762 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2683ms
+2025-04-26 09:59:36.762 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.122ms
+2025-04-26 09:59:36.963 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:36.964 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.964 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:36.965 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:36.965 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5634ms
+2025-04-26 09:59:36.965 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:36.965 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.4554ms
+2025-04-26 09:59:37.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:37.165 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:37.165 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:37.167 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:37.167 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5629ms
+2025-04-26 09:59:37.167 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:37.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.2945ms
+2025-04-26 09:59:37.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:37.341 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:37.341 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 09:59:37.343 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 09:59:37.343 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.735ms
+2025-04-26 09:59:37.343 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:37.343 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.6924ms
+2025-04-26 09:59:50.927 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 09:59:51.146 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 09:59:51.147 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 09:59:51.148 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 09:59:51.149 +03:00 [INF] Hosting environment: Development
+2025-04-26 09:59:51.149 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 09:59:53.460 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 09:59:53.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 248.706ms
+2025-04-26 09:59:53.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 09:59:53.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 09:59:53.718 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.2618ms
+2025-04-26 09:59:53.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.1931ms
+2025-04-26 09:59:53.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 09:59:53.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.9268ms
+2025-04-26 09:59:59.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 09:59:59.461 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 09:59:59.475 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:00.587 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:00.608 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1130.8788ms
+2025-04-26 10:00:00.609 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:00.615 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1168.5355ms
+2025-04-26 10:00:01.510 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:01.512 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:01.512 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:01.559 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:01.559 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 46.5078ms
+2025-04-26 10:00:01.559 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:01.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 50.0764ms
+2025-04-26 10:00:01.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:01.894 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:01.894 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:01.906 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:01.907 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 12.6615ms
+2025-04-26 10:00:01.907 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:01.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 14.2678ms
+2025-04-26 10:00:02.080 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:02.081 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:02.081 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:02.083 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:02.084 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.9328ms
+2025-04-26 10:00:02.084 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:02.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 4.4495ms
+2025-04-26 10:00:02.268 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:02.269 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:02.269 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:02.270 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:02.271 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.9479ms
+2025-04-26 10:00:02.271 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:02.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.8949ms
+2025-04-26 10:00:02.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:09.528 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:09.529 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:09.530 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:09.531 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.0288ms
+2025-04-26 10:00:09.531 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:09.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 7078.8619ms
+2025-04-26 10:00:10.858 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:10.859 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:10.859 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:10.861 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:10.861 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8044ms
+2025-04-26 10:00:10.861 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:10.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.3781ms
+2025-04-26 10:00:11.260 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:11.261 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:11.262 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:11.263 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:11.264 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.1351ms
+2025-04-26 10:00:11.264 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:11.264 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 4.2774ms
+2025-04-26 10:00:11.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:11.448 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:11.448 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:11.450 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:11.450 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.0959ms
+2025-04-26 10:00:11.450 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:11.450 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.1114ms
+2025-04-26 10:00:11.626 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:11.626 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:11.627 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:11.630 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:11.630 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 3.0693ms
+2025-04-26 10:00:11.630 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:11.630 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 4.1985ms
+2025-04-26 10:00:11.808 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:19.528 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:19.528 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:19.530 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:19.531 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.2278ms
+2025-04-26 10:00:19.531 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:19.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 7723.5184ms
+2025-04-26 10:00:20.547 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:20.548 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:20.548 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:20.550 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:20.550 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.1315ms
+2025-04-26 10:00:20.550 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:20.550 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.9416ms
+2025-04-26 10:00:20.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:20.740 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:20.741 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:20.743 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:20.744 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.9406ms
+2025-04-26 10:00:20.744 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:20.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 5.4346ms
+2025-04-26 10:00:20.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:20.936 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:20.937 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:20.938 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:20.939 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.9901ms
+2025-04-26 10:00:20.939 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:20.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.2731ms
+2025-04-26 10:00:21.121 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:21.122 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:21.122 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:21.124 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:21.124 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.7484ms
+2025-04-26 10:00:21.124 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:21.124 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.5536ms
+2025-04-26 10:00:21.310 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:29.621 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:29.621 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:29.623 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:29.623 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.8019ms
+2025-04-26 10:00:29.623 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:29.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 8313.4312ms
+2025-04-26 10:00:45.349 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:45.349 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:45.349 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:45.351 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:45.365 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 15.528ms
+2025-04-26 10:00:45.365 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:45.365 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 16.6396ms
+2025-04-26 10:00:47.067 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:47.067 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:47.067 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:47.068 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:47.068 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2256ms
+2025-04-26 10:00:47.069 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:47.069 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.9149ms
+2025-04-26 10:00:47.666 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:47.666 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:47.666 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:47.668 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:47.668 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4911ms
+2025-04-26 10:00:47.668 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:47.668 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.0924ms
+2025-04-26 10:00:48.178 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:48.178 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:48.178 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:48.179 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:48.180 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5299ms
+2025-04-26 10:00:48.180 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:48.180 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.2509ms
+2025-04-26 10:00:48.538 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:48.538 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:48.538 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:48.540 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:48.540 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.6147ms
+2025-04-26 10:00:48.540 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:48.540 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.5016ms
+2025-04-26 10:00:49.003 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:49.348 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 499 null null 345.5266ms
+2025-04-26 10:00:49.977 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:49.977 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:49.978 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:49.979 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:49.979 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2206ms
+2025-04-26 10:00:49.979 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:49.979 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.6525ms
+2025-04-26 10:00:50.360 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:50.360 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:50.360 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:50.362 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:50.362 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.5217ms
+2025-04-26 10:00:50.362 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:50.362 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.2281ms
+2025-04-26 10:00:50.763 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:50.763 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:50.763 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:50.764 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:50.764 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2866ms
+2025-04-26 10:00:50.764 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:50.764 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.7888ms
+2025-04-26 10:00:51.164 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:51.164 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:51.164 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:51.166 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:51.166 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.456ms
+2025-04-26 10:00:51.166 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:51.166 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.9745ms
+2025-04-26 10:00:52.302 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:52.303 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:52.303 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:52.304 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:52.304 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.1015ms
+2025-04-26 10:00:52.304 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:52.304 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.7498ms
+2025-04-26 10:00:52.913 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:00:59.922 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:59.922 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:00:59.924 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:00:59.924 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.9803ms
+2025-04-26 10:00:59.924 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:00:59.924 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 7011.0709ms
+2025-04-26 10:01:08.219 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:08.220 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:08.220 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:08.221 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:08.221 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4493ms
+2025-04-26 10:01:08.221 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:08.221 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.1366ms
+2025-04-26 10:01:13.159 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:13.159 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:13.159 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:13.160 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:13.161 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.4498ms
+2025-04-26 10:01:13.161 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:13.161 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2.2694ms
+2025-04-26 10:01:13.759 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:13.760 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:13.760 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:13.761 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:13.761 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.2727ms
+2025-04-26 10:01:13.761 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:13.761 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.8634ms
+2025-04-26 10:01:14.336 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:14.336 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:14.336 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:14.339 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:14.339 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.9677ms
+2025-04-26 10:01:14.340 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:14.340 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.6434ms
+2025-04-26 10:01:14.853 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:14.854 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:14.854 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:14.856 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:14.857 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.5812ms
+2025-04-26 10:01:14.857 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:14.857 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3.515ms
+2025-04-26 10:01:15.474 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:15.474 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:15.474 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:15.475 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:15.475 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.3551ms
+2025-04-26 10:01:15.475 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:15.475 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1.7242ms
+2025-04-26 10:01:16.117 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:01:20.026 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:20.026 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:01:20.028 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:01:20.028 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1.566ms
+2025-04-26 10:01:20.028 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:01:20.028 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 3911.4877ms
+2025-04-26 10:01:54.320 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 10:01:54.534 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 10:01:54.534 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 10:01:54.536 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 10:01:54.536 +03:00 [INF] Hosting environment: Development
+2025-04-26 10:01:54.536 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 10:01:55.804 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 10:01:56.067 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 271.1372ms
+2025-04-26 10:01:56.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 10:01:56.075 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 10:01:56.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.2455ms
+2025-04-26 10:01:56.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.6711ms
+2025-04-26 10:01:56.152 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 10:01:56.236 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.8183ms
+2025-04-26 10:02:05.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:05.421 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:05.436 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:02:06.431 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:02:06.448 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1009.9882ms
+2025-04-26 10:02:06.448 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:06.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1052.9604ms
+2025-04-26 10:02:08.166 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:08.170 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.171 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:02:08.215 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:02:08.215 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 44.5149ms
+2025-04-26 10:02:08.215 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 49.7353ms
+2025-04-26 10:02:08.589 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:08.590 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.590 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:02:08.605 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:02:08.605 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 15.1025ms
+2025-04-26 10:02:08.605 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 17.2361ms
+2025-04-26 10:02:08.807 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:08.808 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.808 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:02:08.810 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:02:08.811 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2.5929ms
+2025-04-26 10:02:08.811 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.811 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 4.918ms
+2025-04-26 10:02:08.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:08.990 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.990 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 10:02:08.993 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 10:02:08.994 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 3.2231ms
+2025-04-26 10:02:08.994 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 10:02:08.994 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 6.5994ms
+2025-04-26 10:02:09.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:09.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 1.9428ms
+2025-04-26 10:02:09.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:09.419 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.5171ms
+2025-04-26 10:02:09.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:09.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.8583ms
+2025-04-26 10:02:10.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:10.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.991ms
+2025-04-26 10:02:10.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:10.221 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.8878ms
+2025-04-26 10:02:10.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:10.551 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.4808ms
+2025-04-26 10:02:10.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:10.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.7567ms
+2025-04-26 10:02:13.850 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:13.851 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.7698ms
+2025-04-26 10:02:14.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:14.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 1.133ms
+2025-04-26 10:02:14.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:14.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.9806ms
+2025-04-26 10:02:14.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:14.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 3.3797ms
+2025-04-26 10:02:14.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:14.941 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.9409ms
+2025-04-26 10:02:15.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:15.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.9001ms
+2025-04-26 10:02:15.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 10:02:15.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 503 0 null 0.9376ms
+2025-04-26 13:00:26.494 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 13:00:27.039 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 13:00:27.040 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 13:00:27.041 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 13:00:27.042 +03:00 [INF] Hosting environment: Development
+2025-04-26 13:00:27.042 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 13:00:28.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 13:00:28.268 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 252.1639ms
+2025-04-26 13:00:28.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 13:00:28.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 13:00:28.278 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.3849ms
+2025-04-26 13:00:28.308 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.4374ms
+2025-04-26 13:00:28.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 13:00:28.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.3276ms
+2025-04-26 13:00:34.848 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 13:00:34.863 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 13:00:34.878 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:00:36.659 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 13:00:36.690 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1809.2922ms
+2025-04-26 13:00:36.691 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 13:00:36.701 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1853.0925ms
+2025-04-26 13:00:56.492 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/GetBooksByCategoryId?categoryId=0 - null null
+2025-04-26 13:00:56.495 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByCategoryId (UdemyKutuphaneApi)'
+2025-04-26 13:00:56.504 +03:00 [INF] Route matched with {action = "GetBooksByCategoryId", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBooksByCategoryId(Int32) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:00:56.659 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 13:00:56.659 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetBooksByCategoryId (UdemyKutuphaneApi) in 155.63ms
+2025-04-26 13:00:56.659 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByCategoryId (UdemyKutuphaneApi)'
+2025-04-26 13:00:56.660 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/GetBooksByCategoryId?categoryId=0 - 200 null application/json; charset=utf-8 167.4699ms
+2025-04-26 13:01:04.652 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/GetBooksByCategoryId?categoryId=132 - null null
+2025-04-26 13:01:04.653 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByCategoryId (UdemyKutuphaneApi)'
+2025-04-26 13:01:04.653 +03:00 [INF] Route matched with {action = "GetBooksByCategoryId", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBooksByCategoryId(Int32) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:01:04.670 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2025-04-26 13:01:04.671 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetBooksByCategoryId (UdemyKutuphaneApi) in 17.2702ms
+2025-04-26 13:01:04.671 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByCategoryId (UdemyKutuphaneApi)'
+2025-04-26 13:01:04.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/GetBooksByCategoryId?categoryId=132 - 404 null text/plain; charset=utf-8 18.9424ms
+2025-04-26 13:06:38.796 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 13:06:39.014 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 13:06:39.014 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 13:06:39.015 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 13:06:39.016 +03:00 [INF] Hosting environment: Development
+2025-04-26 13:06:39.016 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 13:06:40.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 13:06:41.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 264.2682ms
+2025-04-26 13:06:41.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 13:06:41.133 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 13:06:41.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.5634ms
+2025-04-26 13:06:41.173 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.9274ms
+2025-04-26 13:06:41.230 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 13:06:41.321 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.3007ms
+2025-04-26 13:06:46.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 13:06:46.898 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 13:06:46.913 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:06:47.902 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 13:06:47.921 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 1004.2521ms
+2025-04-26 13:06:47.921 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 13:06:47.931 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 1048.4115ms
+2025-04-26 13:07:12.642 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7177/api/Book/Create - application/json 106
+2025-04-26 13:07:12.646 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.Create (UdemyKutuphaneApi)'
+2025-04-26 13:07:12.654 +03:00 [INF] Route matched with {action = "Create", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(KutuphaneDataAccess.DTOs.BookCreateDto) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:07:12.878 +03:00 [INF] Kitap başarıyla oluşturuldu.string
+2025-04-26 13:07:12.879 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[KutuphaneServis.Interfaces.IResponse`1[[KutuphaneDataAccess.DTOs.BookCreateDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], KutuphaneServis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 13:07:12.896 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.Create (UdemyKutuphaneApi) in 241.8313ms
+2025-04-26 13:07:12.897 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.Create (UdemyKutuphaneApi)'
+2025-04-26 13:07:12.897 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7177/api/Book/Create - 200 null application/json; charset=utf-8 254.6646ms
+2025-04-26 13:07:20.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 13:07:20.283 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 13:07:20.283 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:07:20.302 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 13:07:20.303 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 19.2888ms
+2025-04-26 13:07:20.303 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 13:07:20.303 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 20.8548ms
+2025-04-26 13:07:36.007 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/GetBooksByAuthorId?authorId=1 - null null
+2025-04-26 13:07:36.010 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi)'
+2025-04-26 13:07:36.014 +03:00 [INF] Route matched with {action = "GetBooksByAuthorId", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBooksByAuthorId(Int32) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:07:36.121 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 13:07:36.122 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi) in 107.9244ms
+2025-04-26 13:07:36.122 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi)'
+2025-04-26 13:07:36.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/GetBooksByAuthorId?authorId=1 - 200 null application/json; charset=utf-8 114.5377ms
+2025-04-26 13:07:42.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/GetBooksByAuthorId?authorId=12132 - null null
+2025-04-26 13:07:42.677 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi)'
+2025-04-26 13:07:42.677 +03:00 [INF] Route matched with {action = "GetBooksByAuthorId", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBooksByAuthorId(Int32) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 13:07:42.681 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2025-04-26 13:07:42.682 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi) in 4.8022ms
+2025-04-26 13:07:42.682 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi)'
+2025-04-26 13:07:42.682 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/GetBooksByAuthorId?authorId=12132 - 404 null text/plain; charset=utf-8 6.0063ms
+2025-04-26 14:43:55.471 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 14:43:55.703 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 14:43:55.703 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 14:43:55.704 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 14:43:55.705 +03:00 [INF] Hosting environment: Development
+2025-04-26 14:43:55.705 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 14:43:57.092 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 14:43:57.366 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 282.0068ms
+2025-04-26 14:43:57.375 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 14:43:57.375 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 14:43:57.380 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.3537ms
+2025-04-26 14:43:57.411 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.0012ms
+2025-04-26 14:43:57.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 14:43:57.519 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.2888ms
+2025-04-26 14:44:01.877 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/ListAll - null null
+2025-04-26 14:44:01.888 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:44:01.900 +03:00 [INF] Route matched with {action = "GetAll", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:44:04.380 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 14:44:04.413 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi) in 2510.2197ms
+2025-04-26 14:44:04.413 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:44:04.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/ListAll - 200 null application/json; charset=utf-8 2546.7614ms
+2025-04-26 14:44:57.045 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7177/api/Book/Update - application/json 164
+2025-04-26 14:44:57.053 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:44:57.061 +03:00 [INF] Route matched with {action = "Update", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KutuphaneDataAccess.DTOs.BookUpdateDto) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:44:57.400 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[KutuphaneServis.Interfaces.IResponse`1[[KutuphaneDataAccess.DTOs.BookUpdateDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], KutuphaneServis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 14:44:57.416 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi) in 354.7319ms
+2025-04-26 14:44:57.416 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:44:57.416 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7177/api/Book/Update - 200 null application/json; charset=utf-8 370.7724ms
+2025-04-26 14:45:14.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/GetBooksByAuthorId?authorId=4 - null null
+2025-04-26 14:45:14.354 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi)'
+2025-04-26 14:45:14.359 +03:00 [INF] Route matched with {action = "GetBooksByAuthorId", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBooksByAuthorId(Int32) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:45:14.392 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 14:45:14.392 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi) in 32.5146ms
+2025-04-26 14:45:14.392 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetBooksByAuthorId (UdemyKutuphaneApi)'
+2025-04-26 14:45:14.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/GetBooksByAuthorId?authorId=4 - 200 null application/json; charset=utf-8 38.5171ms
+2025-04-26 14:45:23.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Book/GetById?id=1005 - null null
+2025-04-26 14:45:23.560 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetById (UdemyKutuphaneApi)'
+2025-04-26 14:45:23.562 +03:00 [INF] Route matched with {action = "GetById", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:45:23.596 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[KutuphaneDataAccess.DTOs.BookQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 14:45:23.597 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.GetById (UdemyKutuphaneApi) in 35.167ms
+2025-04-26 14:45:23.597 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.GetById (UdemyKutuphaneApi)'
+2025-04-26 14:45:23.597 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Book/GetById?id=1005 - 200 null application/json; charset=utf-8 38.2247ms
+2025-04-26 14:45:45.818 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7177/api/Book/Update - application/json 109
+2025-04-26 14:45:45.819 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:45:45.819 +03:00 [INF] Route matched with {action = "Update", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KutuphaneDataAccess.DTOs.BookUpdateDto) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:45:45.851 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-26 14:45:45.863 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi) in 43.7431ms
+2025-04-26 14:45:45.863 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:45:45.863 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7177/api/Book/Update - 400 null application/problem+json; charset=utf-8 45.6373ms
+2025-04-26 14:46:16.670 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7177/api/Book/Update - application/json 160
+2025-04-26 14:46:16.671 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:46:16.675 +03:00 [INF] Route matched with {action = "Update", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KutuphaneDataAccess.DTOs.BookUpdateDto) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:46:16.698 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-26 14:46:16.698 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi) in 22.7783ms
+2025-04-26 14:46:16.698 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:46:16.698 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7177/api/Book/Update - 400 null application/problem+json; charset=utf-8 28.2754ms
+2025-04-26 14:46:42.015 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7177/api/Book/Update - application/json 171
+2025-04-26 14:46:42.015 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:46:42.016 +03:00 [INF] Route matched with {action = "Update", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KutuphaneDataAccess.DTOs.BookUpdateDto) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:46:42.046 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[KutuphaneServis.Interfaces.IResponse`1[[KutuphaneDataAccess.DTOs.BookUpdateDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], KutuphaneServis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 14:46:42.046 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi) in 30.0658ms
+2025-04-26 14:46:42.046 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:46:42.047 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7177/api/Book/Update - 200 null application/json; charset=utf-8 32.0511ms
+2025-04-26 14:46:51.586 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7177/api/Book/Update - application/json 173
+2025-04-26 14:46:51.586 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:46:51.586 +03:00 [INF] Route matched with {action = "Update", controller = "Book"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KutuphaneDataAccess.DTOs.BookUpdateDto) on controller UdemyKutuphaneApi.Controllers.BookController (UdemyKutuphaneApi).
+2025-04-26 14:46:51.592 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[KutuphaneServis.Interfaces.IResponse`1[[KutuphaneDataAccess.DTOs.BookUpdateDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], KutuphaneServis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 14:46:51.592 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi) in 5.9454ms
+2025-04-26 14:46:51.592 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.BookController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:46:51.593 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7177/api/Book/Update - 200 null application/json; charset=utf-8 7.0382ms
+2025-04-26 14:52:50.577 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 14:52:50.826 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 14:52:50.827 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 14:52:50.828 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 14:52:50.828 +03:00 [INF] Hosting environment: Development
+2025-04-26 14:52:50.828 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 14:52:53.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 14:52:53.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 251.8088ms
+2025-04-26 14:52:53.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 14:52:53.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 14:52:53.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 4.5317ms
+2025-04-26 14:52:53.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.2466ms
+2025-04-26 14:52:53.983 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 14:52:54.054 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 71.9553ms
+2025-04-26 14:53:02.043 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Category/ListAll - null null
+2025-04-26 14:53:02.052 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:53:02.067 +03:00 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.CategoryController (UdemyKutuphaneApi).
+2025-04-26 14:53:03.021 +03:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2025-04-26 14:53:03.024 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi) in 954.2998ms
+2025-04-26 14:53:03.024 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:53:03.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Category/ListAll - 404 null text/plain; charset=utf-8 987.679ms
+2025-04-26 14:53:17.793 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7177/api/Category/Create - application/json 56
+2025-04-26 14:53:17.798 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.Create (UdemyKutuphaneApi)'
+2025-04-26 14:53:17.808 +03:00 [INF] Route matched with {action = "Create", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(KutuphaneDataAccess.DTOs.CategoryCreateDto) on controller UdemyKutuphaneApi.Controllers.CategoryController (UdemyKutuphaneApi).
+2025-04-26 14:53:18.135 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[KutuphaneServis.Interfaces.IResponse`1[[KutuphaneDataAccess.DTOs.CategoryCreateDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], KutuphaneServis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 14:53:18.159 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.CategoryController.Create (UdemyKutuphaneApi) in 350.4515ms
+2025-04-26 14:53:18.159 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.Create (UdemyKutuphaneApi)'
+2025-04-26 14:53:18.160 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7177/api/Category/Create - 200 null application/json; charset=utf-8 366.2699ms
+2025-04-26 14:53:21.967 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Category/ListAll - null null
+2025-04-26 14:53:21.968 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:53:21.968 +03:00 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.CategoryController (UdemyKutuphaneApi).
+2025-04-26 14:53:21.992 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.CategoryQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 14:53:22.005 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi) in 36.6172ms
+2025-04-26 14:53:22.005 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:53:22.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Category/ListAll - 200 null application/json; charset=utf-8 38.1686ms
+2025-04-26 14:53:49.640 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:7177/api/Category/Update - application/json 86
+2025-04-26 14:53:49.641 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:53:49.643 +03:00 [INF] Route matched with {action = "Update", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KutuphaneDataAccess.DTOs.CategoryUpdateDto) on controller UdemyKutuphaneApi.Controllers.CategoryController (UdemyKutuphaneApi).
+2025-04-26 14:53:49.803 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[KutuphaneServis.Interfaces.IResponse`1[[KutuphaneDataAccess.DTOs.CategoryUpdateDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], KutuphaneServis, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-26 14:53:49.806 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.CategoryController.Update (UdemyKutuphaneApi) in 162.6329ms
+2025-04-26 14:53:49.806 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.Update (UdemyKutuphaneApi)'
+2025-04-26 14:53:49.806 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:7177/api/Category/Update - 200 null application/json; charset=utf-8 166.0879ms
+2025-04-26 14:53:55.078 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Category/ListAll - null null
+2025-04-26 14:53:55.079 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:53:55.079 +03:00 [INF] Route matched with {action = "GetAll", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.CategoryController (UdemyKutuphaneApi).
+2025-04-26 14:53:55.081 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneDataAccess.DTOs.CategoryQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 14:53:55.081 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi) in 1.9906ms
+2025-04-26 14:53:55.081 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.CategoryController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 14:53:55.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Category/ListAll - 200 null application/json; charset=utf-8 3.505ms
+2025-04-26 15:04:59.347 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 15:04:59.582 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 15:04:59.583 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 15:04:59.585 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 15:04:59.585 +03:00 [INF] Hosting environment: Development
+2025-04-26 15:04:59.585 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 15:05:00.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 15:05:01.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 279.2234ms
+2025-04-26 15:05:01.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 15:05:01.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 15:05:01.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.0785ms
+2025-04-26 15:05:01.134 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.9827ms
+2025-04-26 15:05:01.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 15:05:01.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 84.2655ms
+2025-04-26 15:55:24.981 +03:00 [INF] User profile is available. Using 'C:\Users\yavuz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-26 15:55:25.204 +03:00 [INF] Now listening on: https://localhost:7177
+2025-04-26 15:55:25.205 +03:00 [INF] Now listening on: http://localhost:5007
+2025-04-26 15:55:25.206 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-26 15:55:25.207 +03:00 [INF] Hosting environment: Development
+2025-04-26 15:55:25.207 +03:00 [INF] Content root path: C:\Users\yavuz\source\repos\UdemyCourse\UdemyKutuphaneApi
+2025-04-26 15:55:27.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/index.html - null null
+2025-04-26 15:55:27.312 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/index.html - 200 null text/html;charset=utf-8 252.7036ms
+2025-04-26 15:55:27.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-26 15:55:27.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/_vs/browserLink - null null
+2025-04-26 15:55:27.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 5.1543ms
+2025-04-26 15:55:27.360 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.3244ms
+2025-04-26 15:55:27.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - null null
+2025-04-26 15:55:27.473 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.5885ms
+2025-04-26 15:55:30.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7177/api/Author/ListAll - null null
+2025-04-26 15:55:30.982 +03:00 [INF] Executing endpoint 'UdemyKutuphaneApi.Controllers.AuthorController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 15:55:30.995 +03:00 [INF] Route matched with {action = "GetAll", controller = "Author"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller UdemyKutuphaneApi.Controllers.AuthorController (UdemyKutuphaneApi).
+2025-04-26 15:55:32.631 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[PlaceOfBirth], [a].[RecordDate], [a].[Surname], [a].[YearOfBirth]
+FROM [Authors] AS [a]
+2025-04-26 15:55:32.663 +03:00 [INF] Executing OkObjectResult, writing value of type 'KutuphaneServis.Response.ResponseGeneric`1[[System.Collections.Generic.IEnumerable`1[[KutuphaneCore.DTOs.AuthorQueryDto, KutuphaneDataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-26 15:55:32.683 +03:00 [INF] Executed action UdemyKutuphaneApi.Controllers.AuthorController.GetAll (UdemyKutuphaneApi) in 1685.11ms
+2025-04-26 15:55:32.683 +03:00 [INF] Executed endpoint 'UdemyKutuphaneApi.Controllers.AuthorController.GetAll (UdemyKutuphaneApi)'
+2025-04-26 15:55:32.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7177/api/Author/ListAll - 200 null application/json; charset=utf-8 1717.9836ms

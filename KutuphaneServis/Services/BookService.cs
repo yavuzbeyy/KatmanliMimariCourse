@@ -4,6 +4,7 @@ using KutuphaneDataAccess.DTOs;
 using KutuphaneDataAccess.Repository;
 using KutuphaneServis.Interfaces;
 using KutuphaneServis.Response;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +17,12 @@ namespace KutuphaneServis.Services
     {
         private readonly IGenericRepository<Book> _bookRepository;
         private readonly IMapper _mapper;
-        public BookService(IGenericRepository<Book> bookRepository,IMapper mapper)
+        private readonly ILogger<BookService> _logger;
+        public BookService(IGenericRepository<Book> bookRepository,IMapper mapper, ILogger<BookService> logger)
         {
             _bookRepository = bookRepository;
             _mapper = mapper;
+            _logger = logger;
         }
 
         public Task<IResponse<BookCreateDto>> Create(BookCreateDto createBookModel)
@@ -42,11 +45,14 @@ namespace KutuphaneServis.Services
 
             _bookRepository.Create(book);
 
-            return Task.FromResult<IResponse<BookCreateDto>>(ResponseGeneric<BookCreateDto>.Success(null, "Kitap başarıyla oluşturuldu."));
+                _logger.LogInformation("Kitap başarıyla oluşturuldu." + book.Title);
+
+                return Task.FromResult<IResponse<BookCreateDto>>(ResponseGeneric<BookCreateDto>.Success(null, "Kitap başarıyla oluşturuldu."));
             }
             catch (Exception ex)
             {
-            return Task.FromResult<IResponse<BookCreateDto>>(ResponseGeneric<BookCreateDto>.Error("Bir hata oluştu."));
+                _logger.LogError(ex, "Kitap oluşturulurken hata oluştu.", createBookModel.Title);
+                return Task.FromResult<IResponse<BookCreateDto>>(ResponseGeneric<BookCreateDto>.Error("Bir hata oluştu."));
             }
         }
 
@@ -62,11 +68,13 @@ namespace KutuphaneServis.Services
             }
 
             _bookRepository.Delete(book);
+                _logger.LogInformation("Kitap başarıyla silindi.", book.Title);
 
             return ResponseGeneric<BookQueryDto>.Success(null, "Kitap başarıyla silindi.");
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Kitap silinirken hata oluştu.", id);
                 return ResponseGeneric<BookQueryDto>.Error("Bir hata oluştu.");
             }
         }
@@ -132,9 +140,92 @@ namespace KutuphaneServis.Services
             }
         }
 
-        public Task<IResponse<Book>> Update(Book author)
+        public IResponse<IEnumerable<BookQueryDto>> GetBooksByCategoryId(int categoryId)
         {
-            throw new NotImplementedException();
+            try 
+            {
+                var booksInCategory = _bookRepository.GetAll().Where(x => x.CategoryId == categoryId).ToList();
+
+                var bookDtos = _mapper.Map<IEnumerable<BookQueryDto>>(booksInCategory);
+
+                if (bookDtos == null || bookDtos.ToList().Count == 0)
+                {
+                    return ResponseGeneric<IEnumerable<BookQueryDto>>.Error("Kitap bulunamadı.");
+                }
+
+                return ResponseGeneric<IEnumerable<BookQueryDto>>.Success(bookDtos, "Kitaplar başarıyla döndürüldü.");
+            }
+            catch
+            {
+                return ResponseGeneric<IEnumerable<BookQueryDto>>.Error("Bir hata oluştu.");
+            }
+        }
+
+        public IResponse<IEnumerable<BookQueryDto>> GetBooksByAuthorId(int authorId)
+        {
+            try
+            {
+                var booksByAuthor = _bookRepository.GetAll().Where(x => x.AuthorId == authorId).ToList();
+
+                var bookDtos = _mapper.Map<IEnumerable<BookQueryDto>>(booksByAuthor);
+
+                if (bookDtos == null || bookDtos.ToList().Count == 0)
+                {
+                    return ResponseGeneric<IEnumerable<BookQueryDto>>.Error("Kitap bulunamadı.");
+                }
+
+                return ResponseGeneric<IEnumerable<BookQueryDto>>.Success(bookDtos, "Kitaplar başarıyla döndürüldü.");
+            }
+            catch 
+            { 
+             return ResponseGeneric<IEnumerable<BookQueryDto>>.Error("Bir hata oluştu.");
+            }
+        }
+
+        public Task<IResponse<BookUpdateDto>> Update(BookUpdateDto bookUpdateDto)
+        {
+            try 
+            {
+              //kitabı dbden bul
+              var bookEntity = _bookRepository.GetByIdAsync(bookUpdateDto.Id).Result;
+
+                //kitap yoksa hata döndür
+                if (bookEntity == null)
+                {
+                    return Task.FromResult<IResponse<BookUpdateDto>>(ResponseGeneric<BookUpdateDto>.Error("Kitap bulunamadı."));
+                }
+
+                //kitap varsa güncelle
+                if (!string.IsNullOrEmpty(bookUpdateDto.Title))
+                {
+                    bookEntity.Title = bookUpdateDto.Title;
+                }
+                if (!string.IsNullOrEmpty(bookUpdateDto.Description))
+                {
+                    bookEntity.Description = bookUpdateDto.Description;
+                }
+                if (bookUpdateDto.CountOfPage != null)
+                {
+                    bookEntity.CountOfPage = bookUpdateDto.CountOfPage.Value;
+                }
+                if (bookUpdateDto.AuthorId != null)
+                {
+                    bookEntity.AuthorId = bookUpdateDto.AuthorId.Value;
+                }
+                if (bookUpdateDto.CategoryId != null)
+                {
+                    bookEntity.CategoryId = bookUpdateDto.CategoryId.Value;
+                }
+
+                _bookRepository.Update(bookEntity);
+
+                return Task.FromResult<IResponse<BookUpdateDto>>(ResponseGeneric<BookUpdateDto>.Success(null, "Kitap başarıyla güncellendi."));
+
+            }
+            catch 
+            {
+             return Task.FromResult<IResponse<BookUpdateDto>>(ResponseGeneric<BookUpdateDto>.Error("Bir hata oluştu."));
+            }
         }
     }
 }

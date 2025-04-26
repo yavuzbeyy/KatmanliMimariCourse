@@ -2,6 +2,8 @@
 using KutuphaneServis.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
 
 namespace UdemyKutuphaneApi.Controllers
 {
@@ -17,6 +19,7 @@ namespace UdemyKutuphaneApi.Controllers
             _bookService = bookService;
         }
 
+        [EnableRateLimiting("RateLimiter2")]
         [HttpGet("ListAll")]
         public IActionResult GetAll()
         {
@@ -24,7 +27,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!books.IsSuccess)
             {
-                return NotFound("Kitap bulunamadı.");
+                return NotFound(books.Message);
             }
 
             return Ok(books);
@@ -37,7 +40,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return BadRequest("Silme İşlemi Başarısız Oldu");
+                return BadRequest(result.Message);
             }
 
             return Ok(result);
@@ -55,7 +58,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.Result.IsSuccess)
             {
-                return BadRequest("Kitap oluşturulamadı.");
+                return BadRequest(result.Result.Message);
             }
 
             return Ok(result);
@@ -68,7 +71,51 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return NotFound("Kitap bulunamadı.");
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("GetBooksByCategoryId")]
+        public IActionResult GetBooksByCategoryId(int categoryId) 
+        { 
+            var result = _bookService.GetBooksByCategoryId(categoryId);
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpGet("GetBooksByAuthorId")]
+        public IActionResult GetBooksByAuthorId(int authorId)
+        {
+            var result = _bookService.GetBooksByAuthorId(authorId);
+
+            if (!result.IsSuccess)
+            {
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpPut("Update")]
+        public IActionResult Update([FromBody] BookUpdateDto bookUpdateDto)
+        {
+            if (bookUpdateDto == null)
+            {
+                return BadRequest("Kitap bilgileri boş olamaz.");
+            }
+
+            var result = _bookService.Update(bookUpdateDto);
+
+            if (!result.Result.IsSuccess)
+            {
+                return BadRequest(result.Result.Message);
             }
 
             return Ok(result);

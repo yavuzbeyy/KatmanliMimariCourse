@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yavuz\\source\\repos\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj": {}
+    "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yavuz\\source\\repos\\KutuphaneCore\\KutuphaneCore.csproj": {
+    "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneCore\\KutuphaneCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\KutuphaneCore\\KutuphaneCore.csproj",
+        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneCore\\KutuphaneCore.csproj",
         "projectName": "KutuphaneCore",
-        "projectPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneCore\\KutuphaneCore.csproj",
+        "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneCore\\KutuphaneCore.csproj",
         "packagesPath": "C:\\Users\\yavuz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneCore\\obj\\",
+        "outputPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -67,14 +67,14 @@
         }
       }
     },
-    "C:\\Users\\yavuz\\source\\repos\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj": {
+    "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj",
         "projectName": "KutuphaneDataAccess",
-        "projectPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj",
+        "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj",
         "packagesPath": "C:\\Users\\yavuz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneDataAccess\\obj\\",
+        "outputPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yavuz\\source\\repos\\KutuphaneCore\\KutuphaneCore.csproj": {
-                "projectPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneCore\\KutuphaneCore.csproj"
+              "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneCore\\KutuphaneCore.csproj": {
+                "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneCore\\KutuphaneCore.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\KutuphaneServis.csproj": {
+    "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\KutuphaneServis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\KutuphaneServis.csproj",
+        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\KutuphaneServis.csproj",
         "projectName": "KutuphaneServis",
-        "projectPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\KutuphaneServis.csproj",
+        "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\KutuphaneServis.csproj",
         "packagesPath": "C:\\Users\\yavuz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\obj\\",
+        "outputPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -183,8 +183,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yavuz\\source\\repos\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj": {
-                "projectPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj"
+              "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj": {
+                "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneDataAccess\\KutuphaneDataAccess.csproj"
               }
             }
           }
@@ -207,6 +207,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             }
           },
           "imports": [
@@ -229,14 +233,14 @@
         }
       }
     },
-    "C:\\Users\\yavuz\\source\\repos\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj": {
+    "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj",
+        "projectUniqueName": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj",
         "projectName": "UdemyKutuphaneApi",
-        "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj",
+        "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\UdemyKutuphaneApi\\UdemyKutuphaneApi.csproj",
         "packagesPath": "C:\\Users\\yavuz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yavuz\\source\\repos\\UdemyKutuphaneApi\\obj\\",
+        "outputPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\UdemyKutuphaneApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,8 +260,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\KutuphaneServis.csproj": {
-                "projectPath": "C:\\Users\\yavuz\\source\\repos\\KutuphaneServis\\KutuphaneServis.csproj"
+              "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\KutuphaneServis.csproj": {
+                "projectPath": "C:\\Users\\yavuz\\source\\repos\\UdemyCourse\\KutuphaneServis\\KutuphaneServis.csproj"
               }
             }
           }
@@ -277,11 +281,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

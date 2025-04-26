@@ -126,9 +126,34 @@ namespace KutuphaneServis.Services
             }
         }
 
-        public Task<IResponse<Category>> Update(Category category)
+        public Task<IResponse<CategoryUpdateDto>> Update(CategoryUpdateDto categoryUpdateDto)
         {
-            throw new NotImplementedException();
+            try 
+            {
+                var categoryEntity = _categoryRepository.GetByIdAsync(categoryUpdateDto.Id).Result;
+
+                if (categoryEntity == null)
+                {
+                    return Task.FromResult<IResponse<CategoryUpdateDto>>(ResponseGeneric<CategoryUpdateDto>.Error("Kategori bulunamadı."));
+                }
+
+                if (categoryUpdateDto.Name != null)
+                {
+                    categoryEntity.Name = categoryUpdateDto.Name;
+                }
+                if (categoryUpdateDto.Description != null)
+                {
+                    categoryEntity.Description = categoryUpdateDto.Description;
+                }
+
+                _categoryRepository.Update(categoryEntity);
+
+                return Task.FromResult<IResponse<CategoryUpdateDto>>(ResponseGeneric<CategoryUpdateDto>.Success(null, "Kategori başarıyla güncellendi."));
+            }
+            catch 
+            { 
+                return Task.FromResult<IResponse<CategoryUpdateDto>>(ResponseGeneric<CategoryUpdateDto>.Error("Bir hata oluştu."));
+            }
         }
     }
 }

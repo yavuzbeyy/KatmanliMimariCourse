@@ -1,11 +1,13 @@
 ﻿using KutuphaneCore.DTOs;
 using KutuphaneCore.Entities;
 using KutuphaneServis.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace UdemyKutuphaneApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthorController : ControllerBase
@@ -18,6 +20,7 @@ namespace UdemyKutuphaneApi.Controllers
             _autherService = autherService;
         }
 
+        [AllowAnonymous]
         [HttpGet("ListAll")]
         public IActionResult GetAll() 
         { 
@@ -26,7 +29,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!authors.IsSuccess)
             {
-                return NotFound("Yazar bulunamadı.");
+                return NotFound(authors.Message);
             }
 
             return Ok(authors);
@@ -39,7 +42,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return BadRequest("Silme İşlemi Başarısız Oldu");
+                return BadRequest(result.Message);
             }
 
             return Ok(result);
@@ -57,7 +60,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.Result.IsSuccess)
             {
-                return BadRequest("Yazar oluşturulamadı.");
+                return BadRequest(result.Result.Message);
             }
 
             return Ok(result);
@@ -70,7 +73,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return BadRequest("Yazar bulunamadı.");
+                return BadRequest(result.Message);
             }
 
             return Ok(result);
@@ -83,10 +86,30 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return NotFound("Yazar bulunamadı.");
+                return NotFound(result.Message);
             }
 
             return Ok(result);
+        }
+
+        [HttpPut("Update")]
+        public IActionResult Update(AuthorUpdateDto authorUpdateDto) 
+        { 
+          
+            if(authorUpdateDto == null) 
+            {
+                return BadRequest("Boş alan gönderilemez");
+            }
+
+            var result = _autherService.Update(authorUpdateDto).Result;
+
+            if (!result.IsSuccess) 
+            {
+                return BadRequest(result.Message);
+            }
+
+            return Ok(result);
+
         }
 
     }

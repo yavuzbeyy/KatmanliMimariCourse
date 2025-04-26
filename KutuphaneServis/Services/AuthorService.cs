@@ -131,9 +131,44 @@ namespace KutuphaneServis.Services
 
         }
 
-        public Task<IResponse<Author>> Update(Author author)
+        public Task<IResponse<AuthorUpdateDto>> Update(AuthorUpdateDto authorUpdateDto)
         {
-            throw new NotImplementedException();
+
+            try { 
+            var authorEntity = _authorRepository.GetByIdAsync(authorUpdateDto.Id).Result;
+
+            if (authorEntity == null)
+            {
+                return Task.FromResult<IResponse<AuthorUpdateDto>>(ResponseGeneric<AuthorUpdateDto>.Error("Yazar bulunamadı."));
+            }
+
+            if (authorUpdateDto.Name != null)
+            {
+                authorEntity.Name = authorUpdateDto.Name;
+            }
+            if (authorUpdateDto.Surname != null)
+            {
+                authorEntity.Surname = authorUpdateDto.Surname;
+            }
+            if (authorUpdateDto.PlaceOfBirth != null)
+            {
+                authorEntity.PlaceOfBirth = authorUpdateDto.PlaceOfBirth;
+            }
+            if (authorUpdateDto.YearOfBirth != null)
+            {
+                authorEntity.YearOfBirth = authorUpdateDto.YearOfBirth ?? authorEntity.YearOfBirth;
+            }
+
+            _authorRepository.Update(authorEntity);
+
+            return Task.FromResult<IResponse<AuthorUpdateDto>>(ResponseGeneric<AuthorUpdateDto>.Success(null, "Yazar başarıyla güncellendi."));
+            }
+            catch 
+            { 
+            return Task.FromResult<IResponse<AuthorUpdateDto>>(ResponseGeneric<AuthorUpdateDto>.Error("Yazar güncellenirken hata oluştu."));
+            }
+
+
         }
     }
 }

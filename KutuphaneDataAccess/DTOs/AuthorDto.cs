@@ -32,4 +32,17 @@ namespace KutuphaneCore.DTOs
         public int YearOfBirth { get; set; }
 
     }
+
+    public class AuthorUpdateDto
+    {
+        public int Id { get; set; }
+        public string? Name { get; set; }
+
+        public string? Surname { get; set; }
+
+        public string? PlaceOfBirth { get; set; }
+
+        public int? YearOfBirth { get; set; }
+
+    }
 }

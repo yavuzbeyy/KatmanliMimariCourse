@@ -24,7 +24,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!categories.IsSuccess)
             {
-                return NotFound("Kategori bulunamadı.");
+                return NotFound(categories.Message);
             }
 
             return Ok(categories);
@@ -37,7 +37,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return BadRequest("Silme İşlemi Başarısız Oldu");
+                return BadRequest(result.Message);
             }
 
             return Ok(result);
@@ -55,7 +55,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.Result.IsSuccess)
             {
-                return BadRequest("Kategori oluşturulamadı.");
+                return BadRequest(result.Result.Message);
             }
 
             return Ok(result);
@@ -68,7 +68,7 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return NotFound("Kategori bulunamadı.");
+                return NotFound(result.Message);
             }
 
             return Ok(result);
@@ -81,7 +81,25 @@ namespace UdemyKutuphaneApi.Controllers
 
             if (!result.IsSuccess)
             {
-                return NotFound("Kategori bulunamadı.");
+                return NotFound(result.Message);
+            }
+
+            return Ok(result);
+        }
+
+        [HttpPut("Update")]
+        public IActionResult Update([FromBody] CategoryUpdateDto categoryUpdateDto)
+        {
+            if (categoryUpdateDto == null)
+            {
+                return BadRequest("Kategori bilgileri boş olamaz.");
+            }
+
+            var result = _categoryService.Update(categoryUpdateDto);
+
+            if (!result.Result.IsSuccess)
+            {
+                return BadRequest(result.Result.Message);
             }
 
             return Ok(result);
